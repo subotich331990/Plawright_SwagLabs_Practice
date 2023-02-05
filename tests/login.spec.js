@@ -40,7 +40,7 @@ test.describe('Pruebas en Swag Labs', () => {
 
   })
 
-  test.only('UseName vacío - Error', async ({ page }) => {
+  test('UseName vacío - Error', async ({ page }) => {
     const datos = new DATA()
     const message = new MESSAGE_PAGE()
     const login = new LOGINPAGE(page)
